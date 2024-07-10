@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 9,
-    "passes": 6,
+    "passes": 9,
     "pending": 0,
-    "failures": 3,
-    "start": "2024-06-24T13:44:12.982Z",
-    "end": "2024-06-24T13:44:13.312Z",
-    "duration": 330
+    "failures": 0,
+    "start": "2024-07-10T20:18:27.966Z",
+    "end": "2024-07-10T20:18:28.366Z",
+    "duration": 400
   },
   "tests": [
     {
@@ -57,83 +57,25 @@
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye' to equal 'Thank you so much.'",
-        "showDiff": true,
-        "actual": "Bye",
-        "expected": "Thank you so much.",
-        "stack": "AssertionError: expected 'Bye' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:34:51)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye' to equal 'Thank you.'",
-        "showDiff": true,
-        "actual": "Bye",
-        "expected": "Thank you.",
-        "stack": "AssertionError: expected 'Bye' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:38:58)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye' to equal 'Bye.'",
-        "showDiff": true,
-        "actual": "Bye",
-        "expected": "Bye.",
-        "stack": "AssertionError: expected 'Bye' to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:42:64)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "should return \"Thank you so much.\" if the tip is generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye' to equal 'Thank you so much.'",
-        "showDiff": true,
-        "actual": "Bye",
-        "expected": "Thank you so much.",
-        "stack": "AssertionError: expected 'Bye' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:34:51)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "should return \"Thank you.\" if the tip is not as generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye' to equal 'Thank you.'",
-        "showDiff": true,
-        "actual": "Bye",
-        "expected": "Thank you.",
-        "stack": "AssertionError: expected 'Bye' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:38:58)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "should return \"Bye.\" if anything else",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye' to equal 'Bye.'",
-        "showDiff": true,
-        "actual": "Bye",
-        "expected": "Bye.",
-        "stack": "AssertionError: expected 'Bye' to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:42:64)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
@@ -174,6 +116,27 @@
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Thank you so much.\" if the tip is generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Thank you.\" if the tip is not as generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Bye.\" if anything else",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
